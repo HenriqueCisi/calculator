@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Meta Tags-->
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  	<!--Page Title-->
+	<title>Calculadora Incrível</title>
+
+	<!--CSS Bootstrap-->
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	 <!--CSS-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!--Font-->
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+</head>
+<body>
+	<!--Calculator-->
+	<div class="container calculator ">
+		<div class="row text-center justify-content-center">
+			<!--First Input Element-->
+			<div class="col-12 ">
+				<input type="number" name="input-1" id="element-1">
+			</div>
+				<!--Operations-->
+				<div class="col-12">
+					<div class="container operation">
+						<div class="row align-items-center text-center">
+							<!--Radio Input Type-->
+							<!--Sum Operation-->
+							<div class="col-2">
+								<input type="radio" id="sum-op" value="+" name="operation" checked="checked">
+								<label class="operations" for="sum-op">+</label>
+							</div>
+							<!--Subtraction Operation-->
+							<div class="col-2">
+								<input type="radio" id="sub-op" value="-" name="operation">
+								<label class="operations" for="sub-op">-</label>
+							</div>
+							<!--Multiplication Operation-->
+							<div class="col-2">
+								<input type="radio" id="mult-op" value="*" name="operation">
+								<label class="operations" for="mult-op">&times</label>
+							</div>
+							<!--Division Operation-->
+							<div class="col-2">
+								<input type="radio" id="div-op" value="/" name="operation">
+								<label class="operations" for="div-op">&divide</label>
+							</div>
+							<!--Percentage Operation-->
+							<!--<div class="col-2">
+								<input type="radio" id="percent-op" value="%" name="operation">
+								<label class="operations" for="percent-op">%</label>
+							</div>-->
+							<!--Raising to a Potence Operation-->
+							<div class="col-2">
+								<input type="radio" id="potence-op" value="^" name="operation">
+								<label class="operations" for="potence-op">^</label>
+							</div>
+						</div>										
+					</div>
+				</div>	
+			
+			<div class="col-12">
+				<input type="number" name="input-2" id="element-2">
+			</div>
+			<div class="col-12">
+				<button id="calculate-button" class="button">=</button>
+			</div>
+			<div class="col-12">
+				<h2 id="result">RESULTADO</h2>
+			</div>
+		</div>
+	</div>
+
+
+ 	<!--Bootstrap Javascript-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!--Javascript-->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
